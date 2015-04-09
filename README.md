@@ -87,6 +87,9 @@ The application is also hosted online. You can test it [here](http://nodecellar.
         
 4. Fire up web browser and point to: http://localhost:3000
 
-
-
+## Issues:## 
+1. db.listCollections seems to return 'undefined'
+2. kill button requires a browser manual reload.. need to auto-reload the current page to show site is down
+3. Allow multiple click of the same menu item (currently you have to go another link then return, for link to work.. its probably a backbone.js feature?)
+4. collection name is hardcoded
 
